@@ -36,12 +36,16 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
 Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
+
 1.importing packages:
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
 ```
+
 2.model initialization:
+
 ```
 x=np.array([[0,0],[0,1],[1,0],[1,1]])
 y=np.array([[0],[1],[1],[0]])
@@ -63,6 +67,7 @@ def sigmoid_derivative(x):
   ```
 
 3.model mechanism:
+
 ```
 losses=[]
 
@@ -90,6 +95,7 @@ for v,out in zip(x,output):
 ```
 
 4.plotting:
+
 ```
 plt.plot(losses)
 plt.title("Loss Curve")
@@ -99,6 +105,7 @@ plt.grid(True)
 plt.show()
 ```
 <H3>Output:</H3>
+
 <img width="717" height="550" alt="image" src="https://github.com/user-attachments/assets/4b0dcab6-4e4e-4cc6-b796-fff5ef21b291" />
 
 <img width="717" height="610" alt="image" src="https://github.com/user-attachments/assets/ccdb279b-a23e-4436-b665-75105e7e39dd" />
