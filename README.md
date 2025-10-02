@@ -1,7 +1,7 @@
 <H3>Sana Fathima H</H3>
 <H3>212223240145</H3>
 <H3>EX. NO.3</H3>
-<H3>30-9-25</H3>
+<H3>29/09/2025</H3>
 <H2 aligh = center> Implementation of MLP for a non-linearly separable data</H2>
 <h3>Aim:</h3>
 To implement a perceptron for classification using Python
